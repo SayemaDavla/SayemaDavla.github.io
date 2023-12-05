@@ -70,8 +70,7 @@
 }
 #rotating-text {
     font-size: 1em;
-    font-weight: 600;
-    font-style: bold;
+    font-weight: bold;
     color: rgb(91, 79, 201);
     margin: 0;
     padding: 10px;
