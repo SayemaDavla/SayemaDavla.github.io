@@ -402,7 +402,7 @@ section .title::after{
 .contact .right form .button button{
     height: 100%;
     width: 100%;
-    border: 2 px solid rgb(91, 79, 201);
+    border: 2px solid;
     background: rgb(91, 79, 201);
     color: white;
     font-size: 20px;
@@ -499,8 +499,7 @@ footer {
         
     }
     .home .home-content .text-3{
-        font-size: 35 px;
-        
+        font-size: 35px;
     }
     .home .home-content a{
         font-size: 23px;
