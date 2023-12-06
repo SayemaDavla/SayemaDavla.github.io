@@ -5,6 +5,16 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -436,6 +446,12 @@ footer {
 
 
 /* Media Queries */
+@media (prefers-reduced-motion: reduce) {
+    .rotating-text {
+        animation: none;
+    }
+}
+
 @media(max-width: 1300px){
     .home .max-width{
         margin-left: 0px;
